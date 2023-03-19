@@ -1,3 +1,8 @@
 {
-    "liveServer.settings.port": 5501
+    "homepage": "http://AlexanderBlanchardAC.github.io/clone-of-nowness",
+    "liveServer.settings.port": 5501,
+    "scripts":{
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    }
 }
